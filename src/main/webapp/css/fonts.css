@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'arial';
+    src: url('../fonts/arial.ttf');
+}
+
+@font-face {
+    font-family: 'comic sans ms';
+    src: url('../fonts/comic sans.ttf');
+}
+
+@font-face {
+    font-family: 'courier new';
+    src: url('../fonts/Courier New.ttf');
+}
+
+@font-face {
+    font-family: 'georgia';
+    src: url('../fonts/Georgia.ttf');
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url('../fonts/helvetica.ttf');
+}
+
+@font-face {
+    font-family: 'impact';
+    src: url('../fonts/impact.ttf');
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url('../fonts/helvetica.ttf');
+}
+
+@font-face {
+    font-family: 'times new roman';
+    src: url('../fonts/times-new-roman.ttf');
+}
+
+@font-face {
+    font-family: 'trebuchet ms';
+    src: url('../fonts/Trebuchet MS.ttf');
+}
+
+@font-face {
+    font-family: 'verdana';
+    src: url('../fonts/Verdana.ttf');
+}

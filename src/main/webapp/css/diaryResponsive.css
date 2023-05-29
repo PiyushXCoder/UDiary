@@ -1,0 +1,94 @@
+
+
+@media screen and (max-width: 880px ) and (min-width: 840px){
+    
+    .workspacebase{
+        padding-top: 85px;
+    }
+    .sidenav{
+        padding-top: 118px;
+    }
+}
+
+@media screen and (max-width: 840px ) and (min-width: 459px){   
+    .workspacebase{
+        padding-top: 105px;
+    }
+    .sidenav{
+        padding-top: 140px;
+    }
+}
+
+@media screen and (max-width: 459px ) and (min-width: 290px){   
+    .workspacebase{
+        padding-top: 125px;
+    }
+    .sidenav{
+        padding-top: 162px;
+    }
+}
+
+@media screen and (max-width: 290px ) and (min-width: 0px){
+    .actionbar{
+        padding-top: 10px;
+    }
+    
+    .workspacebase{
+        padding-top: 135px;
+    }
+    .sidenav{
+        padding-top: 172px;
+    }
+}
+
+@media screen and (max-width: 290px ) and (min-width: 287px){
+    .actionbar{
+        padding-top: 10px;
+    }
+    
+    .workspacebase{
+        padding-top: 135px;
+    }
+    .sidenav{
+        padding-top: 172px;
+    }
+}
+
+@media screen and (max-width: 287px ) and (min-width: 260px){
+    .actionbar{
+        padding-top: 10px;
+    }
+    
+    .workspacebase{
+        padding-top: 157px;
+    }
+    .sidenav{
+        padding-top: 194px;
+    }
+}
+
+@media screen and (max-width: 260px ) and (min-width: 243px){
+    .actionbar{
+        padding-top: 20px;
+    }
+    
+    .workspacebase{
+        padding-top: 167px;
+    }
+    .sidenav{
+        padding-top: 204px;
+    }
+}
+
+@media screen and (max-width: 243px ) and (min-width: 0px){
+    .actionbar{
+        padding-top: 20px;
+    }
+    
+    .workspacebase{
+        padding-top: 189px;
+    }
+    .sidenav{
+        padding-top: 224px;
+    }
+}

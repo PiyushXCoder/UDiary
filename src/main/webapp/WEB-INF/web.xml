@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <!-- [START Welcome file] -->
+    <servlet>
+        <servlet-name>ThemeServlet</servlet-name>
+        <servlet-class>com.urrsm.sng.udiary.ThemeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DriveServlet</servlet-name>
+        <url-pattern>/drive</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ThemeServlet</servlet-name>
+        <url-pattern>/theme</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>start</welcome-file>
+    </welcome-file-list>
+    <!-- [END   Welcome file] -->
+    <!-- [START standard_mappings] -->
+    <servlet>
+        <servlet-name>Start</servlet-name>
+        <servlet-class>com.urrsm.sng.udiary.StartServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DriveServlet</servlet-name>
+        <servlet-class>com.urrsm.sng.udiary.DriveServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DataURLServlet</servlet-name>
+        <servlet-class>com.urrsm.sng.udiary.DataURLServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/start</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>com.urrsm.sng.udiary.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    <!-- [END standard_mappings] -->
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <trim-directive-whitespaces>true</trim-directive-whitespaces>
+        </jsp-property-group>
+    </jsp-config>
+</web-app>

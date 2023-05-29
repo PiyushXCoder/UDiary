@@ -1,0 +1,152 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.deft-navbar{
+    z-index: 3;
+    background-color: #039974;
+    box-shadow: 1px 1px 2px;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: #2aabd2;
+}
+
+.navbar-menu{
+    display: none;
+}
+
+.coats{
+    color: greenyellow;
+    font-style: oblique;
+}
+
+.heading2{
+    color: #039974;
+    text-shadow: 1px 1px;
+}
+.heading1{
+    color: #039974;
+}
+
+.bottom-navbar{
+    z-index: 1;
+}
+
+.jumboHome {
+    background: #F7EFC2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F7EFC2, #F4F0DC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F7EFC2, #F4F0DC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F7EFC2, #F4F0DC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F7EFC2, #F4F0DC); /* Standard syntax (must be last) */
+}
+
+.actionbar{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: #cccc00;
+    overflow: hidden;
+    appearance: menubar;
+    box-shadow: 1px 1px 2px;
+}
+
+.sidenav{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #ffffcc;
+    display: none;
+    padding-top: 85px;
+}
+
+.sideNavMenu{
+    display: block; 
+    overflow: auto;
+    height: calc(100% - 100px);
+}
+
+.sideNavMenu a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #039974;
+    transition: 0.3s;
+}
+
+.sideNavMenu div{
+    padding: 10px 0px 10px 30px;
+}
+
+.sideNavMenu a:hover div{
+    color: #006600;
+    background-color: #99ccff;
+}
+
+.sideNavCover{
+    width: 100%;
+    height: 100px;
+    background-color: #7fc6ff; 
+    background-size: 100% 100px;
+    border-bottom-style: dashed;
+}
+
+.displayPic{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    border: #039974 dashed 3px;
+    border-radius: 100px;
+}
+
+.sidenavbarName{
+    padding-left: 10px; 
+    font-size: 12px; 
+    color: white; 
+    border-width: 5px; 
+    text-shadow: 1px 1px 2px;
+}
+
+.sidenavbarEmail{
+    padding-left: 10px; 
+    font-size: 12px; 
+    color: white; 
+    border-width: 5px; 
+    text-shadow: 1px 1px 2px;
+}
+
+.workspacebase{
+    width: 760px; 
+    text-align: left;
+    padding-top: 50px;
+}
+
+.diary-canvas{
+     border: dotted 1px;
+     width: 600px;
+     height: 400px;
+}
+
+.diary-thumbnail{
+    width: 150px;
+    height: 200px;
+    border: whitesmoke solid 2px;
+    box-shadow: #000 2px 2px 5px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.wordwrap { 
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}
